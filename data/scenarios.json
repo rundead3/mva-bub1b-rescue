@@ -1,0 +1,11 @@
+{
+  "scope": "Accepted Track 1 BUB1B allele pair carried forward from completed diagnostic work. This repository evaluates rescue mechanisms. No raw calls or identifiers.",
+  "diagnostic_status": "accepted_track1_result",
+  "status_basis": "Participant confirmation of completed diagnostic work on 2026-10-22; exact pair carried forward from the prior report.",
+  "phase_assumption": "in_trans",
+  "transcript": "NM_001211.6",
+  "variants": [
+    {"label": "L737_stop", "coding_position1": 2210, "reference": "T", "alternate": "G", "expected_reference_codon": "TTA", "expected_alternate_codon": "TGA"},
+    {"label": "N1002K", "coding_position1": 3006, "reference": "T", "alternate": "G", "expected_reference_codon": "AAT", "expected_alternate_codon": "AAG"}
+  ]
+}

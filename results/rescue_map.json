@@ -1,0 +1,246 @@
+{
+  "analysis_date": "2026-10-22",
+  "scope": "Sequence feasibility only; no rescue efficacy measured.",
+  "diagnostic_status": "accepted_track1_result",
+  "diagnostic_status_basis": "Participant confirmation of completed diagnostic work on 2026-10-22; exact pair carried forward from the prior report.",
+  "phase_assumption": "in_trans",
+  "input_sha256": {
+    "data/public/bub1b_reference.json": "6a6d6550a5e8e2b71c0350465b7f333a801a961a912e14e402968767bc020c23",
+    "data/scenarios.json": "34444b4ae4f69fcacfda755e8e03be063ed7e8ef0064573b0f7002a7adcc9ce3"
+  },
+  "variants": [
+    {
+      "label": "L737_stop",
+      "coding_position1": 2210,
+      "residue1": 737,
+      "reference_codon": "TTA",
+      "alternate_codon": "TGA",
+      "native_amino_acid": "L",
+      "altered_amino_acid": "*",
+      "exact_reversion": "G>T",
+      "exon_number": 17,
+      "edit_products": [
+        {
+          "chemistry": "DNA_ABE_either_strand",
+          "products": [
+            {
+              "codon": "CGA",
+              "amino_acid": "R"
+            },
+            {
+              "codon": "CGG",
+              "amino_acid": "R"
+            },
+            {
+              "codon": "TGG",
+              "amino_acid": "W"
+            }
+          ],
+          "restores_native_codon": false,
+          "restores_native_amino_acid": false
+        },
+        {
+          "chemistry": "DNA_CBE_either_strand",
+          "products": [
+            {
+              "codon": "TAA",
+              "amino_acid": "*"
+            }
+          ],
+          "restores_native_codon": false,
+          "restores_native_amino_acid": false
+        },
+        {
+          "chemistry": "RNA_ADAR_A_to_I",
+          "products": [
+            {
+              "codon": "TGG",
+              "amino_acid": "W"
+            }
+          ],
+          "restores_native_codon": false,
+          "restores_native_amino_acid": false
+        },
+        {
+          "chemistry": "RNA_C_to_U",
+          "products": [],
+          "restores_native_codon": false,
+          "restores_native_amino_acid": false
+        }
+      ],
+      "single_base_native_residue_routes": [
+        {
+          "codon": "TTA",
+          "codon_position1": 2,
+          "change": "G>T"
+        }
+      ],
+      "downstream_junctions": [
+        {
+          "next_exon": 18,
+          "next_exon_coding_start1": 2285,
+          "bases_strictly_between_stop_and_next_exon": 73
+        },
+        {
+          "next_exon": 19,
+          "next_exon_coding_start1": 2386,
+          "bases_strictly_between_stop_and_next_exon": 174
+        },
+        {
+          "next_exon": 20,
+          "next_exon_coding_start1": 2536,
+          "bases_strictly_between_stop_and_next_exon": 324
+        },
+        {
+          "next_exon": 21,
+          "next_exon_coding_start1": 2679,
+          "bases_strictly_between_stop_and_next_exon": 467
+        },
+        {
+          "next_exon": 22,
+          "next_exon_coding_start1": 2851,
+          "bases_strictly_between_stop_and_next_exon": 639
+        },
+        {
+          "next_exon": 23,
+          "next_exon_coding_start1": 2958,
+          "bases_strictly_between_stop_and_next_exon": 746
+        }
+      ],
+      "positional_nmd_criterion": true,
+      "single_exon_skip_model": {
+        "exon": 17,
+        "deleted_coding_bases": 141,
+        "reading_frame_preserved": true,
+        "upstream_codon_phase": 1,
+        "downstream_codon_phase": 1,
+        "protein_length": 1003,
+        "internal_stop_present": false,
+        "upstream_last_unchanged_residue1": 714,
+        "first_retained_original_residue1": 762,
+        "junction_codon": "GGT",
+        "junction_residue": "G",
+        "reference_junction_codon": "GAA",
+        "function": "unknown; an in-frame product can be nonfunctional",
+        "sequence_verified_simple_deletion": {
+          "first_residue1": 715,
+          "last_residue1": 761,
+          "first_reference_amino_acid": "E",
+          "last_reference_amino_acid": "L"
+        }
+      }
+    },
+    {
+      "label": "N1002K",
+      "coding_position1": 3006,
+      "residue1": 1002,
+      "reference_codon": "AAT",
+      "alternate_codon": "AAG",
+      "native_amino_acid": "N",
+      "altered_amino_acid": "K",
+      "exact_reversion": "G>T",
+      "exon_number": 23,
+      "edit_products": [
+        {
+          "chemistry": "DNA_ABE_either_strand",
+          "products": [
+            {
+              "codon": "AGG",
+              "amino_acid": "R"
+            },
+            {
+              "codon": "GAG",
+              "amino_acid": "E"
+            },
+            {
+              "codon": "GGG",
+              "amino_acid": "G"
+            }
+          ],
+          "restores_native_codon": false,
+          "restores_native_amino_acid": false
+        },
+        {
+          "chemistry": "DNA_CBE_either_strand",
+          "products": [
+            {
+              "codon": "AAA",
+              "amino_acid": "K"
+            }
+          ],
+          "restores_native_codon": false,
+          "restores_native_amino_acid": false
+        },
+        {
+          "chemistry": "RNA_ADAR_A_to_I",
+          "products": [
+            {
+              "codon": "AGG",
+              "amino_acid": "R"
+            },
+            {
+              "codon": "GAG",
+              "amino_acid": "E"
+            },
+            {
+              "codon": "GGG",
+              "amino_acid": "G"
+            }
+          ],
+          "restores_native_codon": false,
+          "restores_native_amino_acid": false
+        },
+        {
+          "chemistry": "RNA_C_to_U",
+          "products": [],
+          "restores_native_codon": false,
+          "restores_native_amino_acid": false
+        }
+      ],
+      "single_base_native_residue_routes": [
+        {
+          "codon": "AAC",
+          "codon_position1": 3,
+          "change": "G>C"
+        },
+        {
+          "codon": "AAT",
+          "codon_position1": 3,
+          "change": "G>T"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No PAM, guide, edit-window, off-target, delivery or efficiency assessment.",
+    "Either-strand DNA products are a chemical upper bound and may require separate targeting events.",
+    "No patient RNA, protein, segregation or drug response measured.",
+    "Standard ABE/CBE and two RNA chemistries only; not all emerging editing technologies.",
+    "The accepted Track 1 diagnosis and trans configuration are inputs to this rescue analysis.",
+    "Single-exon skipping models a precise transcript product, not a validated intervention."
+  ],
+  "nonselective_skip_products": [
+    {
+      "allele": "L737_stop",
+      "protein_length": 1003,
+      "scenario_variant_removed": true,
+      "retained_variant_original_residue1": null,
+      "retained_variant_new_residue1": null,
+      "retained_variant_amino_acid": null,
+      "protein_sha256": "2a8e015cb108b804620638539bf8e7e64fb0f5009ffc623e3167267de2c35195",
+      "internal_stop_present": false,
+      "interpretation": "Function unknown; skipping the missense-bearing copy could impair residual function."
+    },
+    {
+      "allele": "N1002K",
+      "protein_length": 1003,
+      "scenario_variant_removed": false,
+      "retained_variant_original_residue1": 1002,
+      "retained_variant_new_residue1": 955,
+      "retained_variant_amino_acid": "K",
+      "protein_sha256": "96795d66e88d9d7066ec70dc336ea59531d3ee90ff9715d6eccb209ee16a8509",
+      "internal_stop_present": false,
+      "interpretation": "Function unknown; skipping the missense-bearing copy could impair residual function."
+    }
+  ]
+}
